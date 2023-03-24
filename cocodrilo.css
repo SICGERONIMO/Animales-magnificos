@@ -1,0 +1,56 @@
+body{
+background:rgb(255, 255, 255);
+font-family:georgia;
+background-image: url("https://cdn.pixabay.com/photo/2018/01/31/07/36/astronomy-3120482_1280.jpg");
+background-attachment: fixed;
+}
+header{
+color:rgb(255, 255, 255);
+text-align:center;
+}
+.article{
+color:rgb(255, 255, 255);
+text-align:left;
+font-size:20px;
+}
+img.izquierda{
+float:left;
+margin-right:30px;
+}
+img.derecha{
+float:right;
+margin-left:30px;
+}
+hr{
+height:20;
+background-color:green;
+}
+h1{
+text-align:center;
+}
+
+.clearfix{
+clear:both;
+}
+#menu{
+background-color:66FF66;
+color:rgb(255, 255, 255);
+}
+#menu ul{
+list-style:none;
+margin:0;
+padding:0;
+}
+#menu ul li{
+display:inline-block;
+
+}
+#menu ul li a{
+color:rgb(238, 210, 51);
+display:block;
+padding:20px 20px;
+text-decoration:none;
+}
+#menu ul li a:hover{
+background:white;
+}

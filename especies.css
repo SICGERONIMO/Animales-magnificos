@@ -1,0 +1,125 @@
+﻿
+/* Estilos generales */
+
+body {
+  background-image: url("back2.jpg"); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  font-family: Arial, sans-serif;
+  background-color: black; 
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+/* 
+Estilos del encabezado */
+header {
+  background-color: brown;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 
+Estilos del menú */
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* 
+Estilos del menú desplegable */
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  padding: 0;
+}
+
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+nav ul ul li {
+  float: none;
+  width: 100%;
+  padding: 10px 0;
+}
+
+nav ul ul li a {
+  padding: 10px 20px;
+}
+
+nav ul ul ul {
+  top: 0;
+  left: 100%;
+}
+
+/* 
+Estilos del pie de página */
+
+section img{
+width: 50%;
+height: 400px;
+ }
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+h1{
+  color: white;
+  font-size: 45px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  text-indent: 15px;
+}
+h2{
+  color: white;
+  font-size: 35px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+  color: white;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h5{
+  color: beige;
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+  color: whitesmoke;
+  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+ul{
+  list-style-type:square;
+  color: azure;
+}
+li{
+  color:whitesmoke;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}

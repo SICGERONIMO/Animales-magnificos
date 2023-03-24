@@ -1,0 +1,26 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    background-color:antiquewhite;
+    color: brown;
+}
+#parrafo{
+    font-size: 20px;
+    background-color: aquamarine;
+    font-family:'Times New Roman', Times, serif;
+}
+#titulo{
+    font-size: 40px;
+    background-color:burlywood;
+    font-weight: bold;
+}
+#img{
+    text-align: center;
+    background-color: dimgray;
+
+}

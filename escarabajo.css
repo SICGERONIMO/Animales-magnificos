@@ -1,0 +1,57 @@
+body{
+background:white;
+font-family:georgia;
+background-image: url("img/rose.png");
+background-attachment: fixed;
+background-size: 100%;
+}
+header{
+color:rgb(241, 241, 241);
+text-align:center;
+}
+.article{
+color:rgb(203, 203, 203);
+text-align:left;
+font-size:20px;
+}
+img.izquierda{
+float:left;
+margin-right:30px;
+}
+img.derecha{
+float:right;
+margin-left:30px;
+}
+hr{
+height:30;
+background-color:rgb(198, 88, 187);
+}
+h1{
+text-align:center;
+}
+
+.clearfix{
+clear:both;
+}
+#menu{
+background-color:rgb(118, 23, 105);
+color:black;
+}
+#menu ul{
+list-style:none;
+margin:0;
+padding:0;
+}
+#menu ul li{
+display:inline-block;
+
+}
+#menu ul li a{
+color:white;
+display:block;
+padding:20px 20px;
+text-decoration:none;
+}
+#menu ul li a:hover{
+background:red;
+}

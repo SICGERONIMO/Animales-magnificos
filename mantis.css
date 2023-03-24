@@ -1,0 +1,54 @@
+body{
+background:black;
+font-family:georgia;
+}
+header{
+color:white;
+text-align:center;
+}
+.article{
+color:white;
+text-align:left;
+font-size:20px;
+}
+img.izquierda{
+float:left;
+margin-right:30px;
+}
+img.derecha{
+float:right;
+margin-left:30px;
+}
+hr{
+height:30;
+background-color:00FF1F;
+}
+h1{
+text-align:center;
+}
+
+.clearfix{
+clear:both;
+}
+#menu{
+background-color:00FF1F;
+color:rgb(30, 162, 144);
+}
+#menu ul{
+list-style:none;
+margin:0;
+padding:0;
+}
+#menu ul li{
+display:inline-block;
+
+}
+#menu ul li a{
+color:rgb(42, 93, 147);
+display:block;
+padding:20px 20px;
+text-decoration:none;
+}
+#menu ul li a:hover{
+background:white;
+}
